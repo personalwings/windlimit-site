@@ -1,9 +1,0 @@
-{
-  "pid": 86256,
-  "port": 45562,
-  "token": "5208bdff-1f0d-41ca-83d4-6fa237bc9774",
-  "startedAt": "2026-07-04T04:22:00.453Z",
-  "serverPath": "/Users/tigre/.claude/skills/gstack/browse/src/server.ts",
-  "mode": "launched",
-  "configHash": "303a7eeccc03078b"
-}

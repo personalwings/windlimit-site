@@ -1,5 +1,0 @@
-[2026-07-04T04:22:00.621Z] GET http://localhost:5288/ → 200 (8ms, 3504B)
-[2026-07-04T04:22:00.631Z] GET http://localhost:5288/windlimit-textmark-dark.svg → 200 (1ms, 4760B)
-[2026-07-04T04:22:00.646Z] GET http://localhost:5288/SairaCondensed-700.woff2 → 200 (3ms, 12192B)
-[2026-07-04T04:22:00.647Z] GET http://localhost:5288/Saira-700.woff2 → 200 (3ms, 32988B)
-[2026-07-04T04:22:00.647Z] GET http://localhost:5288/SourceSans3-400.woff2 → 200 (3ms, 28792B)
