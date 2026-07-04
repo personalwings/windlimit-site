@@ -1,0 +1,5 @@
+{"ts":"2026-07-04T04:22:00.549Z","cmd":"viewport","args":"1280x800","origin":"about:blank","durationMs":7,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-04T04:22:00.647Z","cmd":"goto","args":"http://localhost:5288","origin":"http://localhost:5288/","durationMs":29,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-04T04:22:00.751Z","cmd":"screenshot","args":"--viewport /private/tmp/claude-501/-Users-tigre-Projects-crosswind-app/bed93b9b-7836-4a46-aa88-f95127a3189c/scratchpad/site-desktop.png","origin":"http://localhost:5288/","durationMs":34,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-04T04:22:00.826Z","cmd":"viewport","args":"390x844","origin":"http://localhost:5288/","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-04T04:22:01.234Z","cmd":"screenshot","args":"--viewport /private/tmp/claude-501/-Users-tigre-Projects-crosswind-app/bed93b9b-7836-4a46-aa88-f95127a3189c/scratchpad/site-mobile.png","origin":"http://localhost:5288/","durationMs":25,"status":"ok","hasCookies":false,"mode":"launched"}
