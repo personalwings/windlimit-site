@@ -11,6 +11,8 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: #060E1A; color: #EEF3FA; font-family: 'Source Sans 3', system-ui, sans-serif; line-height: 1.6; }
   main { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+  .mark-link { display: inline-block; margin-bottom: 32px; }
+  .mark { width: min(220px, 60vw); height: auto; display: block; }
   h1 { font-family: 'Saira', sans-serif; font-size: 30px; margin-bottom: 6px; }
   .date { color: #84A5C2; font-size: 14px; margin-bottom: 32px; }
   h2 { font-family: 'Saira', sans-serif; font-size: 19px; margin: 28px 0 8px; color: #54C8FF; }
@@ -22,8 +24,9 @@
 </head>
 <body>
 <main>
+  <a class="mark-link" href="/"><img class="mark" src="windlimit-textmark-dark.svg" alt="WindLimit"></a>
   <h1>Privacy Policy</h1>
-  <div class="date">WindLimit · Last updated July 3, 2026</div>
+  <div class="date">WindLimit · Last updated July 20, 2026</div>
 
   <h2>The short version</h2>
   <p>WindLimit does not require an account, does not collect personal information,
@@ -32,6 +35,14 @@
   <h2>Data stored on your device</h2>
   <p>Your preferences (home airport, aircraft, limits, theme) are saved locally on
   your device and never transmitted to us.</p>
+
+  <h2>Location</h2>
+  <p>If you use the "Fetch Nearest METAR" feature, WindLimit asks for your
+  device's location to find the closest airport with live weather reporting.
+  Your location is used only on your device for this lookup and is never
+  transmitted to us or stored anywhere. You can deny or revoke this
+  permission at any time in your device's settings without losing any other
+  app functionality.</p>
 
   <h2>Weather data</h2>
   <p>When you select an airport, the app requests current METAR weather from
