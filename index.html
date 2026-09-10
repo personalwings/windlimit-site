@@ -247,14 +247,16 @@
           <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
           <span><span class="l1">Download on the</span><br><span class="l2">App Store</span></span>
         </a>
-        <a class="link-cta" href="#walkthrough">Watch the walkthrough</a>
+        <!-- Re-enable when the walkthrough video is up (see #walkthrough section below):
+        <a class="link-cta" href="#walkthrough">Watch the walkthrough</a> -->
       </div>
       <p class="trust"><strong>Free to download.</strong> No account. No subscription. Your settings stay on your device.</p>
     </div>
     <div>
       <div class="phone">
         <div class="screen">
-          <img src="screens/01-main.png" alt="WindLimit main screen showing crosswind and headwind components against limits"
+          <img src="screens/01-main.webp" width="720" height="1561" fetchpriority="high"
+               alt="WindLimit main screen showing crosswind, headwind and gust against personal and demonstrated limits"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>Screenshot 01</b>Main calculator screen: runway, wind, crosswind and head or tailwind read against the limit.'}))">
         </div>
       </div>
@@ -337,64 +339,65 @@
 <section>
   <div class="wrap">
     <div class="eyebrow">A look inside</div>
-    <h2>Six screens, one job.</h2>
+    <h2>Five screens, one job.</h2>
     <p class="section-lede">Every screen is built for a glance, in daylight or at night.</p>
     <div class="shots">
 
       <figure class="shot">
         <div class="phone"><div class="screen">
-          <img src="screens/01-main.png" alt="Main calculator screen"
+          <img src="screens/01-main.webp" width="720" height="1561" loading="lazy"
+               alt="WindLimit main screen: a wind face with crosswind, headwind, gust and limits"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>01 · Main</b>Runway, wind, crosswind and head or tailwind against the limit.'}))">
         </div></div>
-        <figcaption><b>The main read</b>Crosswind and head or tailwind against your limit, at a glance.</figcaption>
+        <figcaption><b>The main read</b>Crosswind, headwind, gust and both limits on one face.</figcaption>
       </figure>
 
       <figure class="shot">
         <div class="phone"><div class="screen">
-          <img src="screens/02-runway-picker.png" alt="Runway picker with best end badged"
+          <img src="screens/02-runway-picker.webp" width="720" height="1561" loading="lazy"
+               alt="Runway picker listing every end with its components and the best end badged"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>02 · Runway picker</b>Both ends side by side, better end badged BEST.'}))">
         </div></div>
-        <figcaption><b>Runway picker</b>Both ends, components side by side, best end badged.</figcaption>
+        <figcaption><b>Runway picker</b>Every end with its components, the best end badged.</figcaption>
       </figure>
 
       <figure class="shot">
         <div class="phone"><div class="screen">
-          <img src="screens/03-exceedance-alert.png" alt="Exceedance alert when a limit is exceeded"
+          <img src="screens/03-exceedance-alert.webp" width="720" height="1561" loading="lazy"
+               alt="Limit exceeded alert showing an 18 kt crosswind against a 12 kt limit"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>03 · Over limit</b>Runway-aware alert when the wind exceeds your limit.'}))">
         </div></div>
-        <figcaption><b>Over limit</b>A clear warning, with the runway on its own line.</figcaption>
+        <figcaption><b>Over limit</b>A plain alert when the crosswind exceeds your limit.</figcaption>
       </figure>
 
       <figure class="shot">
         <div class="phone"><div class="screen">
-          <img src="screens/04-nearby-airports.png" alt="Nearby airports with within-limits reads"
+          <img src="screens/04-nearby-airports.webp" width="720" height="1561" loading="lazy"
+               alt="Nearby airports list with a within-limits read and best runway for each field"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>04 · Nearby</b>Fields around you with wind, best runway, within-limits read.'}))">
         </div></div>
-        <figcaption><b>Nearby airports</b>Wind, best runway, and a within-limits read for each field.</figcaption>
+        <figcaption><b>Nearby airports</b>Best runway and a within-limits read for fields around you.</figcaption>
       </figure>
 
       <figure class="shot">
         <div class="phone"><div class="screen">
-          <img src="screens/05-aircraft-profile.png" alt="Aircraft profile with demonstrated crosswind and limits"
-               onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>05 · Aircraft</b>Demonstrated crosswind and the limits you fly.'}))">
+          <img src="screens/05-settings.webp" width="720" height="1561" loading="lazy"
+               alt="Settings: aircraft profiles, demonstrated and personal crosswind, home airport, theme"
+               onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>05 · Settings</b>Aircraft, demonstrated and personal crosswind, home airport, theme.'}))">
         </div></div>
-        <figcaption><b>Aircraft profile</b>Your demonstrated crosswind and limits, saved on device.</figcaption>
-      </figure>
-
-      <figure class="shot">
-        <div class="phone"><div class="screen">
-          <img src="screens/06-settings.png" alt="Settings and personal minimums"
-               onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph-fallback',innerHTML:'<b>06 · Minimums</b>Personal minimums and display settings.'}))">
-        </div></div>
-        <figcaption><b>Personal minimums</b>Set the number you will not cross, once.</figcaption>
+        <figcaption><b>Your aircraft and minimums</b>Multiple aircraft, demonstrated and personal crosswind, saved on device.</figcaption>
       </figure>
 
     </div>
   </div>
 </section>
 
-<!-- ===================== VIDEO ===================== -->
-<section id="walkthrough">
+<!-- ===================== VIDEO =====================
+     Hidden until the horizontal YouTube cut is ready. To re-enable:
+       1. remove the `hidden` attribute on the <section> below
+       2. swap the .placeholder div for the <iframe> (snippet in the comment inside)
+       3. uncomment the "Watch the walkthrough" link in the hero -->
+<section id="walkthrough" hidden>
   <div class="wrap">
     <div class="eyebrow">See it in action</div>
     <h2>A real crosswind check, start to finish.</h2>

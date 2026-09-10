@@ -1,31 +1,27 @@
 # Screenshots for windlimit.app
 
-The landing page (`../index.html`) expects six PNG files in this folder. Until a
-file exists, the page shows a labelled placeholder in its place, so it is safe to
-add them one at a time.
+The landing page loads five WebP files from this folder, framed in a phone bezel:
 
-## What to capture
+| File | Screen | Shows |
+|------|--------|-------|
+| `01-main.webp` | Main read (also the hero image) | Wind face with crosswind, headwind, gust, per-max and demo-max limits |
+| `02-runway-picker.webp` | Runway picker | Every end with its components, best end badged BEST |
+| `03-exceedance-alert.webp` | Over limit | Limit-exceeded alert, crosswind vs limit, jump to nearby |
+| `04-nearby-airports.webp` | Nearby airports | Within-limits read and best runway per field, divert caveats |
+| `05-settings.webp` | Settings | Aircraft profiles, demonstrated + personal crosswind, home airport, theme, thumb side |
 
-Use a clean iPhone (no debug banners), status bar tidy, dark theme unless noted.
-Portrait. Do not crop the device chrome out; the page frames each shot in a phone
-bezel, so a full app screenshot (no device frame) is what to hand over.
+Until a file exists the page shows a labelled placeholder in its slot, so files
+can be added or replaced one at a time.
 
-| File | Screen | What must be visible |
-|------|--------|----------------------|
-| `01-main.png` | Main calculator | Selected runway, wind (ideally gusting), crosswind and head/tailwind numbers, the limit read. This one is also the hero image, so make it the strongest. |
-| `02-runway-picker.png` | Runway picker | Both runway ends listed with their components side by side, the BEST badge on one end. |
-| `03-exceedance-alert.png` | Over limit | The exceedance alert firing, crosswind figure in amber or red, runway on its own line. |
-| `04-nearby-airports.png` | Nearby Airports | A few fields with wind, best runway, crosswind, and the WITHIN LIMITS / over verdict per field. |
-| `05-aircraft-profile.png` | Aircraft profile | Demonstrated crosswind field and the limits, filled in with realistic values. |
-| `06-settings.png` | Personal minimums / Settings | Personal minimums set, plus theme or display options. |
+## Updating a screenshot
 
-## Format
+1. Export a fresh full-resolution portrait screenshot (a raw iPhone screenshot,
+   no device frame, is ideal).
+2. Save it here as `source-<n>-<name>.png` matching the names in `optimize.sh`.
+3. Run `./optimize.sh` (needs `cwebp`: `brew install webp`). It writes the
+   720px-wide, quality-80 WebP the page expects. Five WebP total is ~150 KB.
+4. Commit the `.webp` files. The `source-*.png` originals are gitignored; keep
+   them in the Drive if you want an archive.
 
-- PNG, portrait, native device resolution (e.g. 1170x2532) is fine; the page
-  scales them down.
-- Real data, not placeholder zeros. Pick an airport with an interesting wind.
-- Keep them consistent: same airport across 01-03 if possible so the story reads
-  as one session.
-
-Drop the files in this folder with exactly the names above, commit, and they
-appear on the site.
+Real, consistent data reads best: the current set is all CLT with a 12 kt
+personal limit so the story hangs together across screens.
